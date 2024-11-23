@@ -17,7 +17,7 @@ def generate_profile_summary_and_facts_single_step(name):
     tools = [linkedin_url, webscrap]
     
     # React prompt
-    react_prompt = hub.pull("hwcase17/react")
+    react_prompt = hub.pull("hwchase17/react")
     
     # React agent
     agent = create_react_agent(
